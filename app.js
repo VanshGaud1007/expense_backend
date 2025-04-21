@@ -23,6 +23,7 @@ const port = process.env.PORT || 3000;
 const allowedOrigins = [
   "http://localhost:3000", // local dev
   "https://your-frontend-domain.vercel.app", // production (if needed)
+  "https://expense-react-ashy.vercel.app", // production (if needed)
 ];
 
 app.use(
