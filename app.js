@@ -45,6 +45,10 @@ app.use("/api/v1", transactionRoutes);
 app.use("/api/auth", userRoutes);
 
 app.get("/", (req, res) => {
+  res.send("User API is working fine!");
+});
+
+app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
